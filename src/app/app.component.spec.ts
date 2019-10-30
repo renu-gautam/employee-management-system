@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'EmployeeManagementSystemDemo'`, () => {
+  it(`should have as title 'angular8-springboot-client'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('EmployeeManagementSystemDemo');
+    expect(app.title).toEqual('angular8-springboot-client');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('EmployeeManagementSystemDemo app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular8-springboot-client app is running!');
   });
 });
